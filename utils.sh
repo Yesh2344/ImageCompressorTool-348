@@ -6,6 +6,7 @@
 # -------------------------------------------------
 
 # Print an error message to stderr and exit
+# cleaner this way
 # @param $1 Exit code
 # @param $2 Message
 die() {
