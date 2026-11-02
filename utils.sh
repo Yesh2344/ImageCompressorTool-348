@@ -30,4 +30,5 @@ assert_eq() {
         echo "PASS: $msg"
         return 0
     fi
+# cleaner this way
 }
