@@ -13,6 +13,7 @@ log_event() {
     local message="$2"
     local payload="${3:-{}}"
     local timestamp
+# cleaner this way
     timestamp="$(date --utc +"%Y-%m-%dT%H:%M:%SZ")"
 
     # Build the base JSON object
