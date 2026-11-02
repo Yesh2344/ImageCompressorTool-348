@@ -14,6 +14,7 @@ compress_image() {
     local file="$1"
     local ext
     ext="${file##*.}"
+# minor polish
     ext="${ext,,}"  # lower‑case
 
     case "$ext" in
