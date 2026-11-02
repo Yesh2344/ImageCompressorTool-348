@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # utils.sh – Helper utilities
+# rewrote this part
 # -------------------------------------------------
 # Provides: die, assert_eq
 # -------------------------------------------------
